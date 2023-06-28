@@ -3,6 +3,8 @@ lockfileVersion: 5.4
 specifiers:
   '@babel/core': ^7.18.13
   '@babel/preset-env': ^7.18.10
+  '@golden-tiger/dom': ^0.0.4
+  '@golden-tiger/regexp-gene': ^0.0.6
   babel-loader: ^8.2.5
   clean-webpack-plugin: ^4.0.0
   core-js: ^3.25.0
@@ -11,6 +13,10 @@ specifiers:
   webpack: ^5.74.0
   webpack-cli: ^4.10.0
   webpack-merge: ^5.8.0
+
+dependencies:
+  '@golden-tiger/dom': 0.0.4
+  '@golden-tiger/regexp-gene': 0.0.6
 
 devDependencies:
   '@babel/core': 7.21.4
@@ -1184,6 +1190,14 @@ packages:
     resolution: {integrity: sha512-dBVuXR082gk3jsFp7Rd/JI4kytwGHecnCoTtXFb7DB6CNHp4rg5k1bhg0nWdLGLnOV71lmDzGQaLMy8iPLY0pw==}
     engines: {node: '>=10.0.0'}
     dev: true
+
+  /@golden-tiger/dom/0.0.4:
+    resolution: {integrity: sha512-HTS4FMndLNVjvVKYPT/nEi5BHHSoT2IYS3qsJy5CiOP8Vsn3AFN2/h4bNwaSMyKI3xauB5SDXIEWsYKFsG2kTQ==}
+    dev: false
+
+  /@golden-tiger/regexp-gene/0.0.6:
+    resolution: {integrity: sha512-ypHXUQEi+SLgmf0OzLm93QSPXbJZ43QTCkicwUbumAxCDaDPGm1U/6couSQI5OpTSPfL7Aa3JM6kJ5A3wK8hGg==}
+    dev: false
 
   /@jridgewell/gen-mapping/0.3.3:
     resolution: {integrity: sha512-HLhSWOLRi875zjjMG/r+Nv0oCW8umGb0BgEhyX3dDX3egwZtB8PqLnjz3yedt8R5StBrzcg4aBpnh8UA9D1BoQ==}

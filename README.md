@@ -1,3 +1,3 @@
-# #golden-tiger/javascript-package-template
+# #golden-tiger/outer-box
 
-JavaScript Package Template
+Create outer border box for given target html element.
