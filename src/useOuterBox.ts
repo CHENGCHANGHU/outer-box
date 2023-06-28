@@ -12,9 +12,9 @@ const DefaultOptions: UseOuterBoxOptions = {
  * Create outer border box for given target html element.
  * @param options
  * options.target: wrapped html element.
- * options.boxWidth: wrapped box width.
- * options.boxStyle: wrapped box style (solid, dashed and other border style css property).
- * options.boxColor: wrapped box color.
+ * options.boxWidth: wrapped box width (default value: 2).
+ * options.boxStyle: wrapped box style (default value: 'dashed'. 'solid', 'dashed' and other border style css property).
+ * options.boxColor: wrapped box color (default value: 'red').
  * @returns 
  */
 export function useOuterBox(options?: UseOuterBoxOptions) {
