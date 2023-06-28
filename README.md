@@ -4,7 +4,7 @@ Create outer border box for given target html element.
 
 ## Functions
 
-1. `useOuterBox(options)`
+### `useOuterBox(options)`
 
 - `options.target`: wrapped html element.
 - `options.boxWidth`: wrapped box width (default value: `2`).
