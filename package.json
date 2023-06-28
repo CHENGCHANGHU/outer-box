@@ -1,6 +1,6 @@
 {
   "name": "@golden-tiger/outer-box",
-  "version": "0.0.9",
+  "version": "0.0.10",
   "description": "@golden-tiger/outer-box",
   "main": "./lib/cjs-module.js",
   "module": "./lib/es-module.js",
@@ -21,8 +21,7 @@
   },
   "files": [
     "dist",
-    "lib",
-    "src"
+    "lib"
   ],
   "keywords": [
     "golden-tiger",
